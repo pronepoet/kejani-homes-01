@@ -6,11 +6,9 @@ import { HomeListing } from './components/HomeListing'
  
 export default function Home() {
 
-
-
   return (
     <>
-<HomeListing/>
+      <HomeListing/>
     </>
    
   )
