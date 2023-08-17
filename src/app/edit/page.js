@@ -22,10 +22,10 @@ export const Update = () => {
   return (
     <>
       <ul>
-        {users.map((home) => (
+        {homes.map((home) => (
           <li key={home.id}>
             {home.houseDetails}
-            <button className={styles.my_button} onClick={() => handleUserSelect(home)}>Select</button>
+            <button className={styles.my_button} onClick={() => handleHomeSelect(home)}>Select</button>
           </li>
         ))}
       </ul>
