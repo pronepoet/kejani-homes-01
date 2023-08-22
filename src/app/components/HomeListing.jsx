@@ -15,7 +15,7 @@ export const HomeListing = () => {
               rel="noopener noreferrer"
             >
               <h2 className={`mb-3 text-2xl font-semibold`}>
-                <img src={house.image} alt="house" />
+                <img src={house.image} loading="lazy" alt="house" />
                 {house.houseDetails}{" "}
                 <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
                   -&gt;
