@@ -10,7 +10,7 @@ export const Header = () => {
     <Image
         src="/../public/house.jpg" // Path to your image in the public directory
         alt="My Image"
-        width={2000} // Specify the width
+        width={1080} // Specify the width
         height={700} // Specify the height
       />
     </div>

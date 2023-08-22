@@ -26,10 +26,18 @@ body {
     rgb(var(--background-start-rgb));
    
 }
+/* in header */
 .image1{
   display: flex;
   justify-content: center;
 }
+
+/* in homepage */
 .house-container{
   background-color: rgb(12, 186, 101);
+}
+
+/* login form */
+.login_form{
+  
 }
