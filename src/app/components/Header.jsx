@@ -15,7 +15,7 @@ export const Header = () => {
       />
     </div>
  
-        <h1>We provide the best house to be your home</h1>
+        <h1>We provide the <span className='header_span'>best</span> house to be your <span className='header_span'>home</span></h1>
         </div>
   </>
   )
