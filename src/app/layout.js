@@ -1,6 +1,6 @@
 import './globals.css'
 import { Inter, Poppins } from 'next/font/google'
-
+import { Navbar } from './components/Navbar'
 const inter = Inter({ subsets: ['latin'] })
 const poppins = Poppins(
   { subsets: ['latin'],
@@ -16,7 +16,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={poppins.className}>
+      <Navbar />
         <h1 className={'text-4xl text-center font-bold'}>Kejani Homes</h1>
+    
         {children}</body>
     </html>
   )

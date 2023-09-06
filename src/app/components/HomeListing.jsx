@@ -9,7 +9,7 @@ export const HomeListing = () => {
           {houses.map((house) => (
             <a
               key={house.id}
-              href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+              href="/"
               className="group rounded-lg border border-transparent m-5 px-10 py-10 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
               target="_blank"
               rel="noopener noreferrer"
