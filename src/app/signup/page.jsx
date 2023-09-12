@@ -3,7 +3,7 @@ import Link from 'next/link'
  const SignUp = () => {
   return (
     <>
-     <div>
+     <div className='signUpForm'>
      <h2 className='h2'>SIGNUP</h2>
     <p className='para'>Create an account to put up properties for rent/sale</p>
        

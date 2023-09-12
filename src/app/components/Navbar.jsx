@@ -15,10 +15,10 @@ export const Navbar = () => {
 
             </div>
             <div class="hidden md:flex space-x-6">
-          <a href="#" class="hover:text-darkGrayishBlue">Home</a>
+          <a href="/" class="hover:text-darkGrayishBlue">Home</a>
           <a href="#" class="hover:text-darkGrayishBlue">About</a>
           <a href="#" class="hover:text-darkGrayishBlue">Listing</a>
-          <a href="#" class="hover:text-darkGrayishBlue">Login</a>
+          <a href="/login" class="hover:text-darkGrayishBlue">Login</a>
           </div>
           </div>
       </nav>
