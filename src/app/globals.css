@@ -33,6 +33,13 @@ color: green;
 
 
 /* signup page */
+.h2{
+  margin: 2rem;
+}
+
+.para{
+  margin: 2rem
+}
 .signUpForm{
   text-align: center;
 }
@@ -43,5 +50,13 @@ color: green;
 
 }
 .loginButton{
+  margin: 2rem;
+}
+
+.unameLabel{
+  margin: 2rem;
+}
+
+.logo{
   margin: 2rem;
 }
